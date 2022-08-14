@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="gridResponsive.css">
+    <title>Encriptador</title>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="header">
+            <img class="logoImg" src="imagenes/Vector.png" alt="Logo Alura">
+            <h1 class="tittle">Bienvenido a N-cripta!</h1>
+        </div>
+        <div class="ingresarTexto">
+            <input type="text" id="textoEncriptar" class="text-input" placeholder="Ingrese el texto aqui...">
+        </div>
+        <div class="botones">
+            <p>Solo letras minusculas y sin acentos</p>
+            <button type="button" id="btn-encriptar">Encriptar</button>
+            <button type="button" id="btn-desencriptar">Desencriptar</button>
+        </div>
+        <div class="salidaTexto">
+            <img src="imagenes/munheco.png" alt="munheco joven" id="imagenDerecha">
+            <img src="imagenes/textoNoEncontrado.png" alt="No se ha encontrado texto" id="imgTexto">
+            <textarea id="texto2" cols="30" rows="10"></textarea>
+            <button type="button" id="btn-copiar">Copiar</button>
+        </div>
+        <div class="footer">
+            <p>&copy Creado por Facundo Rivara!</p>   
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>
